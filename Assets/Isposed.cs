@@ -8,6 +8,8 @@ public class Isposed : MonoBehaviour
 {
 
 	public bool isPauseded = false;
+	public Sprite PauseImg;
+	public Sprite PlayImg;
 
 
     // Start is called before the first frame update
@@ -38,7 +40,7 @@ public class Isposed : MonoBehaviour
     {
         if(isPauseded)
         {
-
+        	this.gameObject.GetComponent<SpriteRenderer>().sprite = PlayImg;
 			Time.timeScale = 0f;
             // Si on clique sur le bouton alors isPauseded devient faux donc le jeu reprend
             if(GUI.Button(new Rect(Screen.width / 2 - 40, Screen.height / 2 - 20, 80, 40), "Continuer"))
@@ -53,7 +55,7 @@ public class Isposed : MonoBehaviour
             }
         }
         else{
-
+        	this.gameObject.GetComponent<SpriteRenderer>().sprite = PauseImg;
 			Time.timeScale = 1f;
         }
     }
