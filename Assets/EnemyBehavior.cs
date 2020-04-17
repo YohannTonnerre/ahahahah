@@ -10,9 +10,13 @@ public class EnemyBehavior : MonoBehaviour
     public Transform[] waypoints;
     int cur = 0;
     public float speed = 5;
+    private float hitLast = 0;
+    private float hitDelay = 1;
 
 
+    void Start(){
 
+    }
     // Update is called once per frame
     void FixedUpdate()
     {
@@ -34,8 +38,22 @@ public class EnemyBehavior : MonoBehaviour
     {
         if (node.gameObject.tag == "Player")
         {
-            Destroy(node.gameObject);
+            if(PlayerBehavior.Life == 3 ){
+                PlayerBehavior.Life -= 1;
+                Debug.Log("aaaa");
+            }
+
+            if(PlayerBehavior.Life == 2){
+                PlayerBehavior.Life -= 1;
+                Debug.Log("bbbb");
+            }
+            else{
+                Destroy(node.gameObject);  
+                Debug.Log("cccc");              
+            }
         }
+    
 
     }
+
 }

@@ -16,7 +16,7 @@ public class PlayerBehavior : MonoBehaviour
     public Sprite RIGHT;
     public Sprite BACK;
     public Sprite FRONT;
-    public int Life = 3;
+    public static int Life = 3;
 
     // Start is called before the first frame update
     void Start()
