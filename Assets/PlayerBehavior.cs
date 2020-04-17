@@ -16,6 +16,7 @@ public class PlayerBehavior : MonoBehaviour
     public Sprite RIGHT;
     public Sprite BACK;
     public Sprite FRONT;
+    public int Life = 3;
 
     // Start is called before the first frame update
     void Start()
@@ -57,20 +58,21 @@ public class PlayerBehavior : MonoBehaviour
         if (collision.gameObject.tag == "Coin")
         {
             Destroy(collision.gameObject);
-            m_score = m_score + 1;
+            ScoreScript.m_score += 1;
         }
 
         if (collision.gameObject.tag == "routeur")
         {
             Destroy(collision.gameObject);
-            m_score = m_score + 5;
+            ScoreScript.m_score += 5;
             bonus_r = bonus_r + 1;
+            m_speed = m_speed + 10;
         }
 
         if (collision.gameObject.tag == "clé")
         {
             Destroy(collision.gameObject);
-            m_score = m_score + 10;
+            ScoreScript.m_score += 10;
             bonus_cle = true ;
         }
 
