@@ -30,11 +30,11 @@ public class EnemyBehavior : MonoBehaviour
         else cur = (cur + 1) % waypoints.Length;
     }
 
-    void OnCollisionEnter2D(Collision2D collision)
+    void OnTriggerEnter2D(Collider2D node)
     {
-        if (collision.gameObject.tag == "Player")
+        if (node.gameObject.tag == "Player")
         {
-            Destroy(collision.gameObject);
+            Destroy(node.gameObject);
         }
 
     }
