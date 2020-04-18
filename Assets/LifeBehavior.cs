@@ -29,5 +29,6 @@ public class LifeBehavior : MonoBehaviour
         if(PlayerBehavior.Life == 0){
         	this.gameObject.GetComponent<SpriteRenderer>().sprite = ZeroLife;
         }
+    
     }
 }

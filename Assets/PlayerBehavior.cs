@@ -58,21 +58,21 @@ public class PlayerBehavior : MonoBehaviour
         if (collision.gameObject.tag == "Coin")
         {
             Destroy(collision.gameObject);
-            ScoreScript.m_score += 1;
+            ScoreScript.m_score += 100;
         }
 
         if (collision.gameObject.tag == "routeur")
         {
             Destroy(collision.gameObject);
-            ScoreScript.m_score += 5;
+            ScoreScript.m_score += 500;
             bonus_r = bonus_r + 1;
-            m_speed = m_speed + 10;
+            m_speed = m_speed + 100;
         }
 
         if (collision.gameObject.tag == "clé")
         {
             Destroy(collision.gameObject);
-            ScoreScript.m_score += 10;
+            ScoreScript.m_score += 1000;
             bonus_cle = true ;
         }
 

@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Sprites/_GestionInput.unity
     guid: 7a1c6bc18c3cdab49b02623e370dcb20
+  - enabled: 1
+    path: Assets/Sprites/3_PageWin.unity
+    guid: 5428e2779ec564a45883b23f01991674
+  - enabled: 1
+    path: Assets/Sprites/4_PageLoose.unity
+    guid: 140c72bfc5a37b5498ea2e0dee5fd60f
   m_configObjects: {}

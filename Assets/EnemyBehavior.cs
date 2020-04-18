@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement ;
 
 public class EnemyBehavior : MonoBehaviour
 {
@@ -49,7 +50,8 @@ public class EnemyBehavior : MonoBehaviour
             }
             else{
                 Destroy(node.gameObject);  
-                Debug.Log("cccc");              
+                Debug.Log("cccc");  
+                SceneManager.LoadScene("4_PageLoose");            
             }
         }
     
