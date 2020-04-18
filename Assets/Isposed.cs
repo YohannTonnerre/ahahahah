@@ -54,6 +54,7 @@ public class Isposed : MonoBehaviour
                 SceneManager.LoadScene("0_Menu"); // Charge le menu principal
             }
         }
+        //test
         else{
         	this.gameObject.GetComponent<SpriteRenderer>().sprite = PauseImg;
 			Time.timeScale = 1f;
