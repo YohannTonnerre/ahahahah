@@ -39,14 +39,11 @@ public class EnemyBehavior : MonoBehaviour
     {
         if (node.gameObject.tag == "Player")
         {
-            if(PlayerBehavior.Life == 3 ){
-                PlayerBehavior.Life -= 1;
-                Debug.Log("aaaa");
-            }
 
-            if(PlayerBehavior.Life == 2){
+
+            if(PlayerBehavior.Life > 1){
                 PlayerBehavior.Life -= 1;
-                Debug.Log("bbbb");
+                Debug.Log(PlayerBehavior.Life);
             }
             else{
                 Destroy(node.gameObject);  
