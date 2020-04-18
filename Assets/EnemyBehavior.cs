@@ -11,8 +11,6 @@ public class EnemyBehavior : MonoBehaviour
     public Transform[] waypoints;
     int cur = 0;
     public float speed = 5;
-    private float hitLast = 0;
-    private float hitDelay = 1;
 
 
     void Start(){
@@ -43,11 +41,9 @@ public class EnemyBehavior : MonoBehaviour
 
             if(PlayerBehavior.Life > 1){
                 PlayerBehavior.Life -= 1;
-                Debug.Log(PlayerBehavior.Life);
             }
             else{
                 Destroy(node.gameObject);  
-                Debug.Log("cccc");  
                 SceneManager.LoadScene("4_PageLoose");            
             }
         }

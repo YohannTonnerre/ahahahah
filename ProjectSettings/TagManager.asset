@@ -9,6 +9,7 @@ TagManager:
   - BoxWood
   - routeur
   - "cl\xE9"
+  - Teleporter1
   layers:
   - Default
   - TransparentFX
