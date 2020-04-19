@@ -8,12 +8,12 @@ public class KeyBindScript : MonoBehaviour
 
 	private Dictionary<string, KeyCode> keys = new Dictionary<string, KeyCode>();
 
-	public static Text up, down, left, right;
+	public Text up, down, left, right;
 
 	private GameObject currentKey;
 
 	private Color32 normal = new Color(39, 171, 249, 255);
-	private Color32 slected = new Color32(239, 116, 36, 255);
+	private Color32 slected = new Color32(140, 140, 140, 255);
     // Start is called before the first frame update
     void Start()
     {
