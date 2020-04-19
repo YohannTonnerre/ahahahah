@@ -8,7 +8,7 @@ public class KeyBindScript : MonoBehaviour
 
 	private Dictionary<string, KeyCode> keys = new Dictionary<string, KeyCode>();
 
-	public Text up, down, left, right;
+	public static Text up, down, left, right;
 
 	private GameObject currentKey;
 
@@ -17,10 +17,10 @@ public class KeyBindScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        keys.Add("Up", KeyCode.Z);
-        keys.Add("Down", KeyCode.S);
-        keys.Add("Left", KeyCode.Q);
-        keys.Add("Right", KeyCode.D);
+    	keys.Add("Up",(KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("Up","Z")));
+        keys.Add("Down",(KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("Down","S")));
+        keys.Add("Left",(KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("Left","Q")));
+        keys.Add("Right",(KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("Right","D")));
 
         up.text = keys["Up"].ToString();
         down.text = keys["Down"].ToString();
@@ -72,5 +72,13 @@ public class KeyBindScript : MonoBehaviour
     	currentKey.GetComponent<Image>().color = slected;
     }
 
-    
+    public void saveKeys(){
+    	foreach (var key in keys){
+    		PlayerPrefs.SetString(key.Key,key.Value.ToString());
+
+    	}
+    	PlayerPrefs.Save();
+    }
+
+
 }

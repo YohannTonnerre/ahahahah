@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerBehavior : MonoBehaviour
 {
@@ -74,6 +75,7 @@ public class PlayerBehavior : MonoBehaviour
             Destroy(collision.gameObject);
             ScoreScript.m_score += 1000;
             bonus_cle = true ;
+            SceneManager.LoadScene("3_PageWin");  
         }
 
     }
