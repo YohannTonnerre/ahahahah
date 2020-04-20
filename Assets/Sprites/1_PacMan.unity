@@ -139,8 +139,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!58 &23113977
-CircleCollider2D:
+--- !u!60 &23113977
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -153,8 +153,28 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 18.83
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 60, y: 60}
+    newSize: {x: 1.23, y: 1.23}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 5, y: 13}
+      - {x: -26, y: 15}
+      - {x: -30, y: 15}
+      - {x: -30, y: -5}
+      - {x: -26, y: -18}
+      - {x: -17, y: -22}
+      - {x: -14, y: -23}
+      - {x: 10, y: -23}
+      - {x: 30, y: -8}
+      - {x: 30, y: 3}
+      - {x: 25, y: 4}
 --- !u!212 &23113978
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -251,8 +271,8 @@ Transform:
   m_Father: {fileID: 1671965073}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!58 &34453872
-CircleCollider2D:
+--- !u!60 &34453872
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -265,8 +285,28 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 18.83
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 60, y: 60}
+    newSize: {x: 1.23, y: 1.23}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 5, y: 13}
+      - {x: -26, y: 15}
+      - {x: -30, y: 15}
+      - {x: -30, y: -5}
+      - {x: -26, y: -18}
+      - {x: -17, y: -22}
+      - {x: -14, y: -23}
+      - {x: 10, y: -23}
+      - {x: 30, y: -8}
+      - {x: 30, y: 3}
+      - {x: 25, y: 4}
 --- !u!212 &34453873
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -395,8 +435,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!58 &42933062
-CircleCollider2D:
+--- !u!60 &42933062
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -409,8 +449,28 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 18.83
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 60, y: 60}
+    newSize: {x: 1.23, y: 1.23}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 5, y: 13}
+      - {x: -26, y: 15}
+      - {x: -30, y: 15}
+      - {x: -30, y: -5}
+      - {x: -26, y: -18}
+      - {x: -17, y: -22}
+      - {x: -14, y: -23}
+      - {x: 10, y: -23}
+      - {x: 30, y: -8}
+      - {x: 30, y: 3}
+      - {x: 25, y: 4}
 --- !u!212 &42933063
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -493,8 +553,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!58 &52364405
-CircleCollider2D:
+--- !u!60 &52364405
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -507,8 +567,28 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 18.83
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 60, y: 60}
+    newSize: {x: 1.23, y: 1.23}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 5, y: 13}
+      - {x: -26, y: 15}
+      - {x: -30, y: 15}
+      - {x: -30, y: -5}
+      - {x: -26, y: -18}
+      - {x: -17, y: -22}
+      - {x: -14, y: -23}
+      - {x: 10, y: -23}
+      - {x: 30, y: -8}
+      - {x: 30, y: 3}
+      - {x: 25, y: 4}
 --- !u!212 &52364406
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1995,8 +2075,8 @@ Transform:
   m_Father: {fileID: 1671965073}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!58 &266486313
-CircleCollider2D:
+--- !u!60 &266486313
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2009,8 +2089,28 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 18.83
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 60, y: 60}
+    newSize: {x: 1.23, y: 1.23}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 5, y: 13}
+      - {x: -26, y: 15}
+      - {x: -30, y: 15}
+      - {x: -30, y: -5}
+      - {x: -26, y: -18}
+      - {x: -17, y: -22}
+      - {x: -14, y: -23}
+      - {x: 10, y: -23}
+      - {x: 30, y: -8}
+      - {x: 30, y: 3}
+      - {x: 25, y: 4}
 --- !u!212 &266486314
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2679,8 +2779,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!58 &285306113
-CircleCollider2D:
+--- !u!60 &285306113
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2693,8 +2793,28 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 18.83
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 60, y: 60}
+    newSize: {x: 1.23, y: 1.23}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 5, y: 13}
+      - {x: -26, y: 15}
+      - {x: -30, y: 15}
+      - {x: -30, y: -5}
+      - {x: -26, y: -18}
+      - {x: -17, y: -22}
+      - {x: -14, y: -23}
+      - {x: 10, y: -23}
+      - {x: 30, y: -8}
+      - {x: 30, y: 3}
+      - {x: 25, y: 4}
 --- !u!212 &285306114
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3472,8 +3592,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!58 &394950552
-CircleCollider2D:
+--- !u!60 &394950552
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3486,8 +3606,28 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 18.83
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 60, y: 60}
+    newSize: {x: 1.23, y: 1.23}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 5, y: 13}
+      - {x: -26, y: 15}
+      - {x: -30, y: 15}
+      - {x: -30, y: -5}
+      - {x: -26, y: -18}
+      - {x: -17, y: -22}
+      - {x: -14, y: -23}
+      - {x: 10, y: -23}
+      - {x: 30, y: -8}
+      - {x: 30, y: 3}
+      - {x: 25, y: 4}
 --- !u!212 &394950553
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3860,8 +4000,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!58 &442196362
-CircleCollider2D:
+--- !u!60 &442196362
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3874,8 +4014,28 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 18.83
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 60, y: 60}
+    newSize: {x: 1.23, y: 1.23}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 5, y: 13}
+      - {x: -26, y: 15}
+      - {x: -30, y: 15}
+      - {x: -30, y: -5}
+      - {x: -26, y: -18}
+      - {x: -17, y: -22}
+      - {x: -14, y: -23}
+      - {x: 10, y: -23}
+      - {x: 30, y: -8}
+      - {x: 30, y: 3}
+      - {x: 25, y: 4}
 --- !u!212 &442196363
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4373,8 +4533,8 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -19.465}
---- !u!61 &465653313
-BoxCollider2D:
+--- !u!60 &465653313
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -4396,9 +4556,14 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 60, y: 15}
-  m_EdgeRadius: 0
+  m_Points:
+    m_Paths:
+    - - {x: -30, y: 10}
+      - {x: -30, y: -3}
+      - {x: -29, y: -5}
+      - {x: 30, y: -5}
+      - {x: 30, y: 8}
+      - {x: 27, y: 10}
 --- !u!1 &472556778
 GameObject:
   m_ObjectHideFlags: 0
@@ -4562,8 +4727,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!58 &485294302
-CircleCollider2D:
+--- !u!60 &485294302
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -4576,8 +4741,28 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 18.83
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 60, y: 60}
+    newSize: {x: 1.23, y: 1.23}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 5, y: 13}
+      - {x: -26, y: 15}
+      - {x: -30, y: 15}
+      - {x: -30, y: -5}
+      - {x: -26, y: -18}
+      - {x: -17, y: -22}
+      - {x: -14, y: -23}
+      - {x: 10, y: -23}
+      - {x: 30, y: -8}
+      - {x: 30, y: 3}
+      - {x: 25, y: 4}
 --- !u!212 &485294303
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5077,8 +5262,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!58 &558284166
-CircleCollider2D:
+--- !u!60 &558284166
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -5091,8 +5276,28 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 18.83
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 60, y: 60}
+    newSize: {x: 1.23, y: 1.23}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 5, y: 13}
+      - {x: -26, y: 15}
+      - {x: -30, y: 15}
+      - {x: -30, y: -5}
+      - {x: -26, y: -18}
+      - {x: -17, y: -22}
+      - {x: -14, y: -23}
+      - {x: 10, y: -23}
+      - {x: 30, y: -8}
+      - {x: 30, y: 3}
+      - {x: 25, y: 4}
 --- !u!212 &558284167
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6319,8 +6524,8 @@ Transform:
   m_Father: {fileID: 1671965073}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!58 &741684129
-CircleCollider2D:
+--- !u!60 &741684129
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -6333,8 +6538,28 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 6.88
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 60, y: 60}
+    newSize: {x: 1.23, y: 1.23}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 5, y: 13}
+      - {x: -26, y: 15}
+      - {x: -30, y: 15}
+      - {x: -30, y: -5}
+      - {x: -26, y: -18}
+      - {x: -17, y: -22}
+      - {x: -14, y: -23}
+      - {x: 10, y: -23}
+      - {x: 30, y: -8}
+      - {x: 30, y: 3}
+      - {x: 25, y: 4}
 --- !u!212 &741684130
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6518,8 +6743,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!58 &744904855
-CircleCollider2D:
+--- !u!60 &744904855
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -6532,8 +6757,28 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 18.83
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 60, y: 60}
+    newSize: {x: 1.23, y: 1.23}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 5, y: 13}
+      - {x: -26, y: 15}
+      - {x: -30, y: 15}
+      - {x: -30, y: -5}
+      - {x: -26, y: -18}
+      - {x: -17, y: -22}
+      - {x: -14, y: -23}
+      - {x: 10, y: -23}
+      - {x: 30, y: -8}
+      - {x: 30, y: 3}
+      - {x: 25, y: 4}
 --- !u!212 &744904856
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7516,8 +7761,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!58 &976567231
-CircleCollider2D:
+--- !u!60 &976567231
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -7530,8 +7775,28 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 18.83
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 60, y: 60}
+    newSize: {x: 1.23, y: 1.23}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 5, y: 13}
+      - {x: -26, y: 15}
+      - {x: -30, y: 15}
+      - {x: -30, y: -5}
+      - {x: -26, y: -18}
+      - {x: -17, y: -22}
+      - {x: -14, y: -23}
+      - {x: 10, y: -23}
+      - {x: 30, y: -8}
+      - {x: 30, y: 3}
+      - {x: 25, y: 4}
 --- !u!212 &976567232
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9694,8 +9959,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!58 &1181190762
-CircleCollider2D:
+--- !u!60 &1181190762
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -9708,8 +9973,28 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 18.83
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 60, y: 60}
+    newSize: {x: 1.23, y: 1.23}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 5, y: 13}
+      - {x: -26, y: 15}
+      - {x: -30, y: 15}
+      - {x: -30, y: -5}
+      - {x: -26, y: -18}
+      - {x: -17, y: -22}
+      - {x: -14, y: -23}
+      - {x: 10, y: -23}
+      - {x: 30, y: -8}
+      - {x: 30, y: 3}
+      - {x: 25, y: 4}
 --- !u!212 &1181190763
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10432,8 +10717,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!58 &1282858719
-CircleCollider2D:
+--- !u!60 &1282858719
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -10446,8 +10731,28 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 18.83
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 60, y: 60}
+    newSize: {x: 1.23, y: 1.23}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 5, y: 13}
+      - {x: -26, y: 15}
+      - {x: -30, y: 15}
+      - {x: -30, y: -5}
+      - {x: -26, y: -18}
+      - {x: -17, y: -22}
+      - {x: -14, y: -23}
+      - {x: 10, y: -23}
+      - {x: 30, y: -8}
+      - {x: 30, y: 3}
+      - {x: 25, y: 4}
 --- !u!212 &1282858720
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10882,7 +11187,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 58, y: 35}
+  m_Size: {x: 60, y: 36.8}
   m_EdgeRadius: 0
 --- !u!1 &1324682157
 GameObject:
@@ -11132,8 +11437,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!58 &1329635876
-CircleCollider2D:
+--- !u!60 &1329635876
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -11146,8 +11451,28 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 18.83
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 60, y: 60}
+    newSize: {x: 1.23, y: 1.23}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 5, y: 13}
+      - {x: -26, y: 15}
+      - {x: -30, y: 15}
+      - {x: -30, y: -5}
+      - {x: -26, y: -18}
+      - {x: -17, y: -22}
+      - {x: -14, y: -23}
+      - {x: 10, y: -23}
+      - {x: 30, y: -8}
+      - {x: 30, y: 3}
+      - {x: 25, y: 4}
 --- !u!212 &1329635877
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11430,8 +11755,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!58 &1348480854
-CircleCollider2D:
+--- !u!60 &1348480854
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -11444,8 +11769,28 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 18.83
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 60, y: 60}
+    newSize: {x: 1.23, y: 1.23}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 5, y: 13}
+      - {x: -26, y: 15}
+      - {x: -30, y: 15}
+      - {x: -30, y: -5}
+      - {x: -26, y: -18}
+      - {x: -17, y: -22}
+      - {x: -14, y: -23}
+      - {x: 10, y: -23}
+      - {x: 30, y: -8}
+      - {x: 30, y: 3}
+      - {x: 25, y: 4}
 --- !u!212 &1348480855
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12173,8 +12518,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!58 &1503003937
-CircleCollider2D:
+--- !u!60 &1503003937
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -12187,8 +12532,28 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 18.83
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 60, y: 60}
+    newSize: {x: 1.23, y: 1.23}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 5, y: 13}
+      - {x: -26, y: 15}
+      - {x: -30, y: 15}
+      - {x: -30, y: -5}
+      - {x: -26, y: -18}
+      - {x: -17, y: -22}
+      - {x: -14, y: -23}
+      - {x: 10, y: -23}
+      - {x: 30, y: -8}
+      - {x: 30, y: 3}
+      - {x: 25, y: 4}
 --- !u!212 &1503003938
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12903,8 +13268,8 @@ Transform:
   m_Father: {fileID: 1671965073}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!58 &1560990674
-CircleCollider2D:
+--- !u!60 &1560990674
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -12917,8 +13282,28 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 18.83
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 60, y: 60}
+    newSize: {x: 1.23, y: 1.23}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 5, y: 13}
+      - {x: -26, y: 15}
+      - {x: -30, y: 15}
+      - {x: -30, y: -5}
+      - {x: -26, y: -18}
+      - {x: -17, y: -22}
+      - {x: -14, y: -23}
+      - {x: 10, y: -23}
+      - {x: 30, y: -8}
+      - {x: 30, y: 3}
+      - {x: 25, y: 4}
 --- !u!212 &1560990675
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13102,8 +13487,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!58 &1563561452
-CircleCollider2D:
+--- !u!60 &1563561452
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -13116,8 +13501,28 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 18.83
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 60, y: 60}
+    newSize: {x: 1.23, y: 1.23}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 5, y: 13}
+      - {x: -26, y: 15}
+      - {x: -30, y: 15}
+      - {x: -30, y: -5}
+      - {x: -26, y: -18}
+      - {x: -17, y: -22}
+      - {x: -14, y: -23}
+      - {x: 10, y: -23}
+      - {x: 30, y: -8}
+      - {x: 30, y: 3}
+      - {x: 25, y: 4}
 --- !u!212 &1563561453
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13263,8 +13668,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!58 &1593963546
-CircleCollider2D:
+--- !u!60 &1593963546
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -13277,8 +13682,28 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 18.83
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 60, y: 60}
+    newSize: {x: 1.23, y: 1.23}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 5, y: 13}
+      - {x: -26, y: 15}
+      - {x: -30, y: 15}
+      - {x: -30, y: -5}
+      - {x: -26, y: -18}
+      - {x: -17, y: -22}
+      - {x: -14, y: -23}
+      - {x: 10, y: -23}
+      - {x: 30, y: -8}
+      - {x: 30, y: 3}
+      - {x: 25, y: 4}
 --- !u!212 &1593963547
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14083,8 +14508,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!58 &1717062394
-CircleCollider2D:
+--- !u!60 &1717062394
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -14097,8 +14522,28 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 18.83
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 60, y: 60}
+    newSize: {x: 1.23, y: 1.23}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 5, y: 13}
+      - {x: -26, y: 15}
+      - {x: -30, y: 15}
+      - {x: -30, y: -5}
+      - {x: -26, y: -18}
+      - {x: -17, y: -22}
+      - {x: -14, y: -23}
+      - {x: 10, y: -23}
+      - {x: 30, y: -8}
+      - {x: 30, y: 3}
+      - {x: 25, y: 4}
 --- !u!212 &1717062395
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15241,7 +15686,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 58, y: 35}
+  m_Size: {x: 60, y: 36.8}
   m_EdgeRadius: 0
 --- !u!212 &1861408026
 SpriteRenderer:
@@ -15349,7 +15794,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 58, y: 35}
+  m_Size: {x: 60, y: 36.8}
   m_EdgeRadius: 0
 --- !u!212 &1862875906
 SpriteRenderer:
@@ -17187,7 +17632,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 58, y: 35}
+  m_Size: {x: 60, y: 36.8}
   m_EdgeRadius: 0
 --- !u!212 &2063571683
 SpriteRenderer:
