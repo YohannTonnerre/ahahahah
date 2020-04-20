@@ -13,11 +13,8 @@ public class PlayerBehavior : MonoBehaviour
     public int bonus_r = 0;
     public bool bonus_cle = false;
     public GameObject m_ball;
-    public Sprite LEFT;
-    public Sprite RIGHT;
-    public Sprite BACK;
-    public Sprite FRONT;
     public static int Life = 3;
+    private Vector2 direction = Vector2.zero;
 
     // Start is called before the first frame update
     void Start()
@@ -26,33 +23,56 @@ public class PlayerBehavior : MonoBehaviour
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
-        if (Input.GetAxis("Horizontal") < 0f)
-        {
-            m_rb2D.MovePosition(m_rb2D.position + Time.fixedDeltaTime * m_speed * Vector2.left);
-            /*this.gameObject.GetComponent<SpriteRenderer>().sprite = LEFT;*/
-        }
-        if (Input.GetAxis("Horizontal") > 0f)
-        {
-            m_rb2D.MovePosition(m_rb2D.position + Time.fixedDeltaTime * m_speed * Vector2.right);
-            /*this.gameObject.GetComponent<SpriteRenderer>().sprite = RIGHT;*/
-        }
-        if (Input.GetAxis("Vertical") < 0f)
-        {
-            m_rb2D.MovePosition(m_rb2D.position + Time.fixedDeltaTime * m_speed * Vector2.down);
-            /*this.gameObject.GetComponent<SpriteRenderer>().sprite = FRONT;*/
-        }
-        if (Input.GetAxis("Vertical") > 0f)
-        {
-            m_rb2D.MovePosition(m_rb2D.position + Time.fixedDeltaTime * m_speed * Vector2.up);
-            /*this.gameObject.GetComponent<SpriteRenderer>().sprite = BACK;*/
-        }
-        /*if (Input.GetAxis("Fire1") > 0f)
-        {
-            Instantiate(m_ball, transform.localPosition, Quaternion.identity);
-        }*/
+    	CheckInput ();
+
+    	Move ();
+
     }
+
+    void CheckInput() {
+    	if (Input.GetKeyDown (KeyCode.LeftArrow)) {
+    		direction = Vector2.left;
+    	} else if (Input.GetKeyDown (KeyCode.RightArrow)) {
+    		direction = Vector2.right;
+    	} else if (Input.GetKeyDown (KeyCode.UpArrow)) {
+    		direction = Vector2.up;
+    	} else if (Input.GetKeyDown (KeyCode.DownArrow)) {
+    		direction = Vector2.down;
+    	}
+    	
+    }
+
+    void Move () {
+    	transform.localPosition += (Vector3)(direction * m_speed) * Time.deltaTime;
+    }
+   	// void FixedUpdate()
+    //     if (Input.GetAxis("Horizontal") < 0f)
+    //     {
+    //         m_rb2D.MovePosition(m_rb2D.position + Time.fixedDeltaTime * m_speed * Vector2.left);
+    //         /*this.gameObject.GetComponent<SpriteRenderer>().sprite = LEFT;*/
+    //     }
+    //     if (Input.GetAxis("Horizontal") > 0f)
+    //     {
+    //         m_rb2D.MovePosition(m_rb2D.position + Time.fixedDeltaTime * m_speed * Vector2.right);
+    //         /*this.gameObject.GetComponent<SpriteRenderer>().sprite = RIGHT;*/
+    //     }
+    //     if (Input.GetAxis("Vertical") < 0f)
+    //     {
+    //         m_rb2D.MovePosition(m_rb2D.position + Time.fixedDeltaTime * m_speed * Vector2.down);
+    //         /*this.gameObject.GetComponent<SpriteRenderer>().sprite = FRONT;*/
+    //     }
+    //     if (Input.GetAxis("Vertical") > 0f)
+    //     {
+    //         m_rb2D.MovePosition(m_rb2D.position + Time.fixedDeltaTime * m_speed * Vector2.up);
+    //         /*this.gameObject.GetComponent<SpriteRenderer>().sprite = BACK;*/
+    //     }
+    //     /*if (Input.GetAxis("Fire1") > 0f)
+    //     {
+    //         Instantiate(m_ball, transform.localPosition, Quaternion.identity);
+    //     }*/
+    // }
 
     void OnCollisionEnter2D(Collision2D collision)
     {
@@ -77,6 +97,9 @@ public class PlayerBehavior : MonoBehaviour
             bonus_cle = true ;
             SceneManager.LoadScene("3_PageWin");  
         }
+        if (collision.gameObject.tag == "Obstacle") {
+    		direction = Vector2.zero;
+    	}
 
     }
 

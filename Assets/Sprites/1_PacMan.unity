@@ -154,7 +154,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 6.88
+  m_Radius: 18.83
 --- !u!212 &23113978
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -266,7 +266,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 6.88
+  m_Radius: 18.83
 --- !u!212 &34453873
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -410,7 +410,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 6.88
+  m_Radius: 18.83
 --- !u!212 &42933063
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -508,7 +508,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 6.88
+  m_Radius: 18.83
 --- !u!212 &52364406
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2010,7 +2010,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 6.88
+  m_Radius: 18.83
 --- !u!212 &266486314
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2694,7 +2694,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 6.88
+  m_Radius: 18.83
 --- !u!212 &285306114
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3487,7 +3487,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 6.88
+  m_Radius: 18.83
 --- !u!212 &394950553
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3875,7 +3875,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 6.88
+  m_Radius: 18.83
 --- !u!212 &442196363
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4367,7 +4367,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 465653310}
   m_LocalRotation: {x: -0, y: -0, z: -0.16904569, w: 0.9856082}
-  m_LocalPosition: {x: 162, y: -193, z: 0}
+  m_LocalPosition: {x: 159.3, y: -190.7, z: 0}
   m_LocalScale: {x: 1.5, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -4397,7 +4397,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 52.280003, y: 13.376328}
+  m_Size: {x: 60, y: 15}
   m_EdgeRadius: 0
 --- !u!1 &472556778
 GameObject:
@@ -4577,7 +4577,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 6.88
+  m_Radius: 18.83
 --- !u!212 &485294303
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5092,7 +5092,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 6.88
+  m_Radius: 18.83
 --- !u!212 &558284167
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5191,14 +5191,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_speed: 250
   m_rb2D: {fileID: 561099296}
-  m_score: 506
+  m_score: 0
   bonus_r: 0
   bonus_cle: 0
   m_ball: {fileID: 1303448020680473693, guid: c2839c81d4944e1479652b3e56105170, type: 3}
-  LEFT: {fileID: 21300000, guid: 5bd47fc54dd311845a4d21b9059df888, type: 3}
-  RIGHT: {fileID: 21300000, guid: 0e2b581c85217f641bd3d671b2958486, type: 3}
-  BACK: {fileID: 21300000, guid: 59449eb7c3987c34593cff1b1517c245, type: 3}
-  FRONT: {fileID: 21300000, guid: f595636a6ecfc8c4b9e6bb7c560410f4, type: 3}
 --- !u!212 &561099294
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5299,7 +5295,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 93.6
+  m_Radius: 84.52
 --- !u!1 &574016692
 GameObject:
   m_ObjectHideFlags: 0
@@ -6439,7 +6435,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 6.88
+  m_Radius: 18.83
 --- !u!212 &744904856
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7437,7 +7433,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 6.88
+  m_Radius: 18.83
 --- !u!212 &976567232
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9615,7 +9611,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 6.88
+  m_Radius: 18.83
 --- !u!212 &1181190763
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10353,7 +10349,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 6.88
+  m_Radius: 18.83
 --- !u!212 &1282858720
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10788,7 +10784,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 52.5348, y: 26.96}
+  m_Size: {x: 58, y: 35}
   m_EdgeRadius: 0
 --- !u!1 &1324682157
 GameObject:
@@ -11053,7 +11049,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 6.88
+  m_Radius: 18.83
 --- !u!212 &1329635877
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11351,7 +11347,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 6.88
+  m_Radius: 18.83
 --- !u!212 &1348480855
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12094,7 +12090,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 6.88
+  m_Radius: 18.83
 --- !u!212 &1503003938
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12824,7 +12820,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 6.88
+  m_Radius: 18.83
 --- !u!212 &1560990675
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13023,7 +13019,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 6.88
+  m_Radius: 18.83
 --- !u!212 &1563561453
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13184,7 +13180,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 6.88
+  m_Radius: 18.83
 --- !u!212 &1593963547
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14003,7 +13999,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 6.88
+  m_Radius: 18.83
 --- !u!212 &1717062395
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15146,7 +15142,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 52.5348, y: 26.96}
+  m_Size: {x: 58, y: 35}
   m_EdgeRadius: 0
 --- !u!212 &1861408026
 SpriteRenderer:
@@ -15254,7 +15250,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 52.5348, y: 26.96}
+  m_Size: {x: 58, y: 35}
   m_EdgeRadius: 0
 --- !u!212 &1862875906
 SpriteRenderer:
@@ -17092,7 +17088,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 52.5348, y: 26.96}
+  m_Size: {x: 58, y: 35}
   m_EdgeRadius: 0
 --- !u!212 &2063571683
 SpriteRenderer:
