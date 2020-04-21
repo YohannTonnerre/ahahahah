@@ -5,10 +5,10 @@ public class GameManager : MonoBehaviour {
  
     public static GameManager GM;
 
-    public KeyCode forward {get; set;}
-    public KeyCode backward {get; set;}
-    public KeyCode left {get; set;}
-    public KeyCode right {get; set;}
+    public static KeyCode forward {get; set;}
+    public static KeyCode backward {get; set;}
+    public static KeyCode left {get; set;}
+    public static KeyCode right {get; set;}
  
  
  
@@ -27,6 +27,11 @@ public class GameManager : MonoBehaviour {
         backward = (KeyCode) System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("backwardKey", "S"));
         left = (KeyCode) System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("leftKey", "Q"));
         right = (KeyCode) System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("rightKey", "D"));
+
+        Debug.Log(forward);
+        Debug.Log(backward);
+        Debug.Log(left);
+        Debug.Log(right);
  
     }
  
@@ -37,6 +42,5 @@ public class GameManager : MonoBehaviour {
  
     void Update ()
     {
- 
     }
 }

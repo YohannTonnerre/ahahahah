@@ -10,16 +10,16 @@ public class Controller : MonoBehaviour {
 
     void Update ()
     {
-        if(Input.GetKey(GameManager.GM.forward))
+        if(Input.GetKey(GameManager.forward))
             transform.position += Vector3.forward / 2;
 
-        if( Input.GetKey(GameManager.GM.backward))
+        if( Input.GetKey(GameManager.backward))
             transform.position += -Vector3.forward / 2;
 
-        if( Input.GetKey(GameManager.GM.left))
+        if( Input.GetKey(GameManager.left))
             transform.position += Vector3.left / 2;
 
-        if( Input.GetKey(GameManager.GM.right))
+        if( Input.GetKey(GameManager.right))
             transform.position += Vector3.right / 2;
     }
 }

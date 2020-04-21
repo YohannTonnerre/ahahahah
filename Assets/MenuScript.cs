@@ -14,33 +14,33 @@ public class MenuScript : MonoBehaviour {
     void Start ()
     {
 		menuPanel = transform.Find("Panel");
-        menuPanel.gameObject.SetActive(false);
+        menuPanel.gameObject.SetActive(true);
 
         waitingForKey = false;
 
         for(int i = 0; i < menuPanel.childCount; i++) {
 
             if(menuPanel.GetChild(i).name == "ForwardKey")
-                menuPanel.GetChild(i).GetComponentInChildren<Text>().text = GameManager.GM.forward.ToString();
+                menuPanel.GetChild(i).GetComponentInChildren<Text>().text = GameManager.forward.ToString();
 
             else if(menuPanel.GetChild(i).name == "BackwardKey")
-                menuPanel.GetChild(i).GetComponentInChildren<Text>().text = GameManager.GM.backward.ToString();
+                menuPanel.GetChild(i).GetComponentInChildren<Text>().text = GameManager.backward.ToString();
 
             else if(menuPanel.GetChild(i).name == "LeftKey")
-                menuPanel.GetChild(i).GetComponentInChildren<Text>().text = GameManager.GM.left.ToString();
+                menuPanel.GetChild(i).GetComponentInChildren<Text>().text = GameManager.left.ToString();
 
             else if(menuPanel.GetChild(i).name == "RightKey")
-                menuPanel.GetChild(i).GetComponentInChildren<Text>().text = GameManager.GM.right.ToString();
+                menuPanel.GetChild(i).GetComponentInChildren<Text>().text = GameManager.right.ToString();
         }
     }
 
     void Update ()
     {
-		if(Input.GetKeyDown(KeyCode.Escape) && !menuPanel.gameObject.activeSelf)
+		/*if(Input.GetKeyDown(KeyCode.Escape) && !menuPanel.gameObject.activeSelf)
             menuPanel.gameObject.SetActive(true);
 
         else if(Input.GetKeyDown(KeyCode.Escape) && menuPanel.gameObject.activeSelf)
-            menuPanel.gameObject.SetActive(false);
+            menuPanel.gameObject.SetActive(false);*/
 
     }
 
@@ -83,27 +83,27 @@ public class MenuScript : MonoBehaviour {
         switch(keyName)
         {
         case "forward":
-            GameManager.GM.forward = newKey;
-            buttonText.text = GameManager.GM.forward.ToString();
-            PlayerPrefs.SetString("forwardKey", GameManager.GM.forward.ToString());
+            GameManager.forward = newKey;
+            buttonText.text = GameManager.forward.ToString();
+            PlayerPrefs.SetString("forwardKey", GameManager.forward.ToString());
             break;
 
         case "backward":
-            GameManager.GM.backward = newKey;
-            buttonText.text = GameManager.GM.backward.ToString();
-            PlayerPrefs.SetString("backwardKey", GameManager.GM.backward.ToString());
+            GameManager.backward = newKey;
+            buttonText.text = GameManager.backward.ToString();
+            PlayerPrefs.SetString("backwardKey", GameManager.backward.ToString());
             break;
 
         case "left":
-            GameManager.GM.left = newKey;
-            buttonText.text = GameManager.GM.left.ToString();
-            PlayerPrefs.SetString("leftKey", GameManager.GM.left.ToString());
+            GameManager.left = newKey;
+            buttonText.text = GameManager.left.ToString();
+            PlayerPrefs.SetString("leftKey", GameManager.left.ToString());
             break;
 
         case "right":
-            GameManager.GM.right = newKey;
-            buttonText.text = GameManager.GM.right.ToString();
-            PlayerPrefs.SetString("rightKey", GameManager.GM.right.ToString());
+            GameManager.right = newKey;
+            buttonText.text = GameManager.right.ToString();
+            PlayerPrefs.SetString("rightKey", GameManager.right.ToString());
             break;
 
         }

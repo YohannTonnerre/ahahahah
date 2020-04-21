@@ -32,13 +32,13 @@ public class PlayerBehavior : MonoBehaviour
     }
 
     void CheckInput() {
-    	if (Input.GetKeyDown (KeyCode.LeftArrow)) {
+    	if (Input.GetKeyDown (GameManager.left)) {
     		direction = Vector2.left;
-    	} else if (Input.GetKeyDown (KeyCode.RightArrow)) {
+    	} else if (Input.GetKeyDown (GameManager.right)) {
     		direction = Vector2.right;
-    	} else if (Input.GetKeyDown (KeyCode.UpArrow)) {
+    	} else if (Input.GetKeyDown (GameManager.forward)) {
     		direction = Vector2.up;
-    	} else if (Input.GetKeyDown (KeyCode.DownArrow)) {
+    	} else if (Input.GetKeyDown (GameManager.backward)) {
     		direction = Vector2.down;
     	}
     	
