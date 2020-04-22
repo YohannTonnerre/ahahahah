@@ -47,32 +47,6 @@ public class PlayerBehavior : MonoBehaviour
     void Move () {
     	transform.localPosition += (Vector3)(direction * m_speed) * Time.deltaTime;
     }
-   	// void FixedUpdate()
-    //     if (Input.GetAxis("Horizontal") < 0f)
-    //     {
-    //         m_rb2D.MovePosition(m_rb2D.position + Time.fixedDeltaTime * m_speed * Vector2.left);
-    //         /*this.gameObject.GetComponent<SpriteRenderer>().sprite = LEFT;*/
-    //     }
-    //     if (Input.GetAxis("Horizontal") > 0f)
-    //     {
-    //         m_rb2D.MovePosition(m_rb2D.position + Time.fixedDeltaTime * m_speed * Vector2.right);
-    //         /*this.gameObject.GetComponent<SpriteRenderer>().sprite = RIGHT;*/
-    //     }
-    //     if (Input.GetAxis("Vertical") < 0f)
-    //     {
-    //         m_rb2D.MovePosition(m_rb2D.position + Time.fixedDeltaTime * m_speed * Vector2.down);
-    //         /*this.gameObject.GetComponent<SpriteRenderer>().sprite = FRONT;*/
-    //     }
-    //     if (Input.GetAxis("Vertical") > 0f)
-    //     {
-    //         m_rb2D.MovePosition(m_rb2D.position + Time.fixedDeltaTime * m_speed * Vector2.up);
-    //         /*this.gameObject.GetComponent<SpriteRenderer>().sprite = BACK;*/
-    //     }
-    //     /*if (Input.GetAxis("Fire1") > 0f)
-    //     {
-    //         Instantiate(m_ball, transform.localPosition, Quaternion.identity);
-    //     }*/
-    // }
 
     void OnCollisionEnter2D(Collision2D collision)
     {
@@ -95,7 +69,6 @@ public class PlayerBehavior : MonoBehaviour
             Destroy(collision.gameObject);
             ScoreScript.m_score += 1000;
             bonus_cle = true ;
-            /*SceneManager.LoadScene("3_PageWin");  */
         }
         if (collision.gameObject.tag == "Obstacle") {
     		direction = Vector2.zero;

@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class LifeBehavior : MonoBehaviour
 {
+	public Sprite FiveLife;
+	public Sprite FourLife;
 	public Sprite ThreeLife;
 	public Sprite TwoLife;
 	public Sprite OneLife;
@@ -17,6 +19,12 @@ public class LifeBehavior : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+    	if(PlayerBehavior.Life == 5){
+        	this.gameObject.GetComponent<SpriteRenderer>().sprite = FiveLife;
+        }
+        if(PlayerBehavior.Life == 4){
+        	this.gameObject.GetComponent<SpriteRenderer>().sprite = FourLife;
+        }
         if(PlayerBehavior.Life == 3){
         	this.gameObject.GetComponent<SpriteRenderer>().sprite = ThreeLife;
         }
