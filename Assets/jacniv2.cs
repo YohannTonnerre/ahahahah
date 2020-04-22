@@ -7,6 +7,7 @@ public class jacniv2 : MonoBehaviour
     private Vector2 direction = Vector2.zero;
     public float m_speed = 100f;
     public Rigidbody2D m_rb2D;
+    public bool isGrounded = false;
     
     // Start is called before the first frame update
     void Start()
@@ -20,9 +21,9 @@ public class jacniv2 : MonoBehaviour
     		direction = Vector2.left;
     	} else if (Input.GetKeyDown (GameManager.right)) {
     		direction = Vector2.right;
-    	} else if (Input.GetKeyDown (GameManager.forward)) {
-    		direction = Vector2.up;
-    	} 
+    	} else if (Input.GetKeyDown (GameManager.forward) && isGrounded == true){
+            gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, 80f), ForceMode2D.Impulse);
+        }
     	
     }
 
@@ -36,5 +37,7 @@ public class jacniv2 : MonoBehaviour
         CheckInput ();
 
     	Move ();
+
     }
+
 }
