@@ -21,7 +21,7 @@ public class buttonretour : MonoBehaviour
     {
         SceneManager.LoadScene("0_Menu");
         PlayerBehavior.Life = 3;
-        PlayerBehavior.m_score = 0;
+        ScoreScript.m_score = 0;
         PlayerBehavior.bonus_r = 0;
         PlayerBehavior.bonus_cle = false;
     }
@@ -30,7 +30,7 @@ public class buttonretour : MonoBehaviour
     {
         SceneManager.LoadScene("1_PacMan");
         PlayerBehavior.Life = 3;
-        PlayerBehavior.m_score = 0;
+        ScoreScript.m_score = 0;
         PlayerBehavior.bonus_r = 0;
         PlayerBehavior.bonus_cle = false;
 

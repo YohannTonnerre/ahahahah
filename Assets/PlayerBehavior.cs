@@ -10,8 +10,8 @@ public class PlayerBehavior : MonoBehaviour
     public float m_speed = 100f;
     public Rigidbody2D m_rb2D;
     public int m_score = 0;
-    public int bonus_r = 0;
-    public bool bonus_cle = false;
+    public static int bonus_r = 0;
+    public static bool bonus_cle = false;
     public GameObject m_ball;
     public static int Life = 3;
     private Vector2 direction = Vector2.zero;
