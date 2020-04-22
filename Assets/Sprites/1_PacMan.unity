@@ -1289,7 +1289,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 139734214}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 314, y: -281.9, z: 0}
+  m_LocalPosition: {x: 314, y: -284, z: 0}
   m_LocalScale: {x: 0.22679996, y: 0.08064, z: 1}
   m_Children: []
   m_Father: {fileID: 1165162618}
@@ -4183,6 +4183,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   start: 100
+  time: {fileID: 0}
 --- !u!222 &456932811
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5383,8 +5384,6 @@ MonoBehaviour:
   m_speed: 250
   m_rb2D: {fileID: 561099296}
   m_score: 0
-  bonus_r: 0
-  bonus_cle: 0
   m_ball: {fileID: 1303448020680473693, guid: c2839c81d4944e1479652b3e56105170, type: 3}
 --- !u!212 &561099294
 SpriteRenderer:
@@ -13940,7 +13939,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1608934060}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -240, y: -281.9, z: 0}
+  m_LocalPosition: {x: -240, y: -284, z: 0}
   m_LocalScale: {x: 0.22679996, y: 0.08064, z: 1}
   m_Children: []
   m_Father: {fileID: 1165162618}
@@ -18043,6 +18042,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   start: 100
+  time: {fileID: 0}
 --- !u!222 &2107258172
 CanvasRenderer:
   m_ObjectHideFlags: 0
