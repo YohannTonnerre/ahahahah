@@ -8,12 +8,18 @@ public class PlayerBehavior : MonoBehaviour
 
 
     public float m_speed = 100f;
+
     public Rigidbody2D m_rb2D;
+
     public int m_score = 0;
     public static int bonus_r = 0;
     public static bool bonus_cle = false;
+
     public GameObject m_ball;
+
     public static int Life = 3;
+    public int bonus_vie;
+
     private Vector2 direction = Vector2.zero;
 
     // Start is called before the first frame update
@@ -54,8 +60,8 @@ public class PlayerBehavior : MonoBehaviour
         {
             Destroy(collision.gameObject);
             ScoreScript.m_score += 100;
+            bonus_vie += 1;
         }
-
         if (collision.gameObject.tag == "routeur")
         {
             Destroy(collision.gameObject);
@@ -63,13 +69,18 @@ public class PlayerBehavior : MonoBehaviour
             bonus_r = bonus_r + 1;
             m_speed = m_speed + 100;
         }
-
         if (collision.gameObject.tag == "clé")
         {
             Destroy(collision.gameObject);
             ScoreScript.m_score += 1000;
             bonus_cle = true ;
         }
+
+        if (bonus_vie == 5){
+        	Life += 1;
+        	bonus_vie = 0;
+        }
+
         if (collision.gameObject.tag == "Obstacle") {
     		direction = Vector2.zero;
     	}
