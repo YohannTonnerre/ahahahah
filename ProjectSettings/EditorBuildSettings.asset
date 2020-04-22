@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Sprites/_GestionInput.unity
+    guid: 7a1c6bc18c3cdab49b02623e370dcb20
+  - enabled: 1
     path: Assets/Sprites/0_Menu.unity
     guid: 04bf9f902c7d59642af051cd88af7dbe
   - enabled: 1
@@ -14,9 +17,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Sprites/2_Boss.unity
     guid: ccfc20d5e47328d45b199595695c7b81
-  - enabled: 1
-    path: Assets/Sprites/_GestionInput.unity
-    guid: 7a1c6bc18c3cdab49b02623e370dcb20
   - enabled: 1
     path: Assets/Sprites/3_PageWin.unity
     guid: 5428e2779ec564a45883b23f01991674

@@ -21,12 +21,19 @@ public class buttonretour : MonoBehaviour
     {
         SceneManager.LoadScene("0_Menu");
         PlayerBehavior.Life = 3;
+        ScoreScript.m_score = 0;
+        PlayerBehavior.bonus_r = 0;
+        PlayerBehavior.bonus_cle = false;
     }
 
      public void ButtonReco ()
     {
         SceneManager.LoadScene("1_PacMan");
         PlayerBehavior.Life = 3;
+        ScoreScript.m_score = 0;
+        PlayerBehavior.bonus_r = 0;
+        PlayerBehavior.bonus_cle = false;
+
     }
 
      public void ButtonLevelup ()
