@@ -19,4 +19,9 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("_GestionInput");
     }
+
+     public void niv2 ()
+    {
+        SceneManager.LoadScene("2_Boss");
+    }
 }
