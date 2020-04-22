@@ -24,7 +24,7 @@ public class Timer : MonoBehaviour
 
         if (start <= 1)
         {
-            SceneManager.LoadScene("2_Boss");
+            SceneManager.LoadScene("3_PageWin");
         }
     }
 }
