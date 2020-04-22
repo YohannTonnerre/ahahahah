@@ -9,6 +9,6 @@ public class Nextlevel : MonoBehaviour
 
      public void NextLevel ()
     {
-        SceneManager.LoadScene("5_PacManLevel2");
+        SceneManager.LoadScene("2_Boss");
     }
 }
