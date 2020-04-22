@@ -8687,6 +8687,9 @@ MonoBehaviour:
   isPauseded: 0
   PauseImg: {fileID: 21300000, guid: 3ced4b8469078194b986d97d8fb36d13, type: 3}
   PlayImg: {fileID: 21300000, guid: 31833f1090e52f4448dc957b8c11fd36, type: 3}
+  buttonImageContinuer: {fileID: 2800000, guid: 2c3d2accf6ef6244089c4bc1bf7205ae,
+    type: 3}
+  buttonImageQuitter: {fileID: 2800000, guid: 0996fe75f273e1b4b990ea76cdbac1df, type: 3}
 --- !u!114 &1066596351
 MonoBehaviour:
   m_ObjectHideFlags: 0

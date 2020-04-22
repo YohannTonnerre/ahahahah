@@ -11,6 +11,9 @@ public class Isposed : MonoBehaviour
 	public Sprite PauseImg;
 	public Sprite PlayImg;
 
+    public Texture2D buttonImageContinuer = null;
+    public Texture2D buttonImageQuitter = null;
+
 
     // Start is called before the first frame update
     void Start()
@@ -38,18 +41,20 @@ public class Isposed : MonoBehaviour
 
     void OnGUI () 
     {
+
+         GUI.backgroundColor = Color.clear;
         if(isPauseded)
         {
         	this.gameObject.GetComponent<SpriteRenderer>().sprite = PlayImg;
 			Time.timeScale = 0f;
             // Si on clique sur le bouton alors isPauseded devient faux donc le jeu reprend
-            if(GUI.Button(new Rect(Screen.width / 2 - 40, Screen.height / 2 - 20, 80, 40), "Continuer"))
+            if(GUI.Button(new Rect(Screen.width / 2 - 60, Screen.height / 2 - 20, buttonImageContinuer.width / 15, buttonImageContinuer.height / 15),buttonImageContinuer))
             {
                 isPauseded = false;
             }
             // Si on clique sur le bouton alors on ferme completment le jeu ou on charge la scene Menu Principal
             // Dans le cas du bouton Quitter, il faut augmenter sa position Y pour qu'il soit plus bas.
-            if(GUI.Button(new Rect(Screen.width / 2 - 40, Screen.height / 2 + 40, 80, 40), "Quitter"))
+            if(GUI.Button(new Rect(Screen.width / 2 - 60, Screen.height / 2 + 40, buttonImageQuitter.width/ 15, buttonImageQuitter.height / 15),buttonImageQuitter))
             {
                 SceneManager.LoadScene("0_Menu"); // Charge le menu principal
             }
