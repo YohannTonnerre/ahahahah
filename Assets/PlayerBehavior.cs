@@ -88,6 +88,10 @@ public class PlayerBehavior : MonoBehaviour
     		direction = Vector2.zero;
     	}
 
+        if (ScoreScript.m_score == 5100){
+            SceneManager.LoadScene("3_PageWin");
+        }
+
     }
 
 }
