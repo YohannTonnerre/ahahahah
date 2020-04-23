@@ -47,6 +47,7 @@ public class Isposed : MonoBehaviour
         {
         	this.gameObject.GetComponent<SpriteRenderer>().sprite = PlayImg;
 			Time.timeScale = 0f;
+            
             // Si on clique sur le bouton alors isPauseded devient faux donc le jeu reprend
             if(GUI.Button(new Rect(Screen.width / 2 - 160, Screen.height / 2 - 110, buttonImageContinuer.width / 7, buttonImageContinuer.height / 7),buttonImageContinuer))
             {
