@@ -5,7 +5,7 @@ using UnityEngine;
 public class BallBehavior : MonoBehaviour
 {
 
-    public float m_speed = 1000f;
+    private float m_speed = 500f;
     public Rigidbody2D m_rb2D;
     public float BulletDestroyTimer = 1f;
    
@@ -30,7 +30,7 @@ public class BallBehavior : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Obstacle")
+        if (collision.gameObject.tag == "Hacker")
         {
             Destroy(gameObject);
         }
