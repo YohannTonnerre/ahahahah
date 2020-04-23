@@ -48,13 +48,13 @@ public class Isposed : MonoBehaviour
         	this.gameObject.GetComponent<SpriteRenderer>().sprite = PlayImg;
 			Time.timeScale = 0f;
             // Si on clique sur le bouton alors isPauseded devient faux donc le jeu reprend
-            if(GUI.Button(new Rect(Screen.width / 2 - 60, Screen.height / 2 - 20, buttonImageContinuer.width / 15, buttonImageContinuer.height / 15),buttonImageContinuer))
+            if(GUI.Button(new Rect(Screen.width / 2 - 160, Screen.height / 2 - 110, buttonImageContinuer.width / 7, buttonImageContinuer.height / 7),buttonImageContinuer))
             {
                 isPauseded = false;
             }
             // Si on clique sur le bouton alors on ferme completment le jeu ou on charge la scene Menu Principal
             // Dans le cas du bouton Quitter, il faut augmenter sa position Y pour qu'il soit plus bas.
-            if(GUI.Button(new Rect(Screen.width / 2 - 60, Screen.height / 2 + 40, buttonImageQuitter.width/ 15, buttonImageQuitter.height / 15),buttonImageQuitter))
+            if(GUI.Button(new Rect(Screen.width / 2 - 160, Screen.height / 2 + 20, buttonImageQuitter.width/ 7, buttonImageQuitter.height / 7),buttonImageQuitter))
             {
                 SceneManager.LoadScene("0_Menu"); // Charge le menu principal
             }

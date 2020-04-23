@@ -10,6 +10,8 @@ TagManager:
   - routeur
   - "cl\xE9"
   - Teleporter1
+  - Hacker
+  - RouterJacques
   layers:
   - Default
   - TransparentFX
