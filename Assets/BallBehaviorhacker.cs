@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BallBehavior : MonoBehaviour
+public class BallBehaviorhacker : MonoBehaviour
 {
 
     private float m_speed = 500f;
@@ -20,7 +20,7 @@ public class BallBehavior : MonoBehaviour
        
 
 
-            transform.Translate(Vector3.right * Time.deltaTime * m_speed);
+            transform.Translate(Vector3.left * Time.deltaTime * m_speed);
             Destroy(gameObject, BulletDestroyTimer);
 
 
@@ -32,16 +32,7 @@ public class BallBehavior : MonoBehaviour
     {
 
 
-        if (collision.gameObject.tag == "Hacker")
-        {
-            HackerBehavior.hackerLife = HackerBehavior.hackerLife - 1;
-            Debug.Log(HackerBehavior.hackerLife); 
-        }
 
-        if (HackerBehavior.hackerLife == 0)
-        {
-            Destroy(collision.gameObject);
-        }
         
     }
 
