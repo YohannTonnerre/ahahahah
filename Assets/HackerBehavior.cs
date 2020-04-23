@@ -8,21 +8,23 @@ public class HackerBehavior : MonoBehaviour
 
 
     public Rigidbody2D m_rb2D;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
+    public float accelerationTime = 2f;
+    public float maxSpeed = 5f;
+    private Vector2 movement;
+    private float timeLeft;
+    
     void Update()
     {
-        
+      timeLeft -= Time.deltaTime;
+      if(timeLeft <= 0)
+      {
+        movement = new Vector2(Random.Range(-1f, 1f), Random.Range(-1f, 1f));
+        timeLeft += accelerationTime;
+      }
     }
-
-
-    void OnCollisionEnter2D(Collision2D collision)
+    
+    void FixedUpdate()
     {
-    	
+      m_rb2D.AddForce(movement * maxSpeed);
     }
 }
