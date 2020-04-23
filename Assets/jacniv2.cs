@@ -36,16 +36,18 @@ public class jacniv2 : MonoBehaviour
             m_rb2D.MovePosition(m_rb2D.position + Time.fixedDeltaTime * m_speed * Vector2.right);
         }
 
+        if (Input.GetAxis("Vertical") < 0f)
+        {
+            m_rb2D.MovePosition(m_rb2D.position + Time.fixedDeltaTime * m_speed * Vector2.down);
 
-        else if (Input.GetKeyDown (GameManager.forward) && isGrounded == true){
-            gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, 120f), ForceMode2D.Impulse);
-        }   
-        else if (isGrounded == true){
-            this.gameObject.GetComponent<SpriteRenderer>().sprite = Grounded;
         }
-        else if (isGrounded == false){
-            this.gameObject.GetComponent<SpriteRenderer>().sprite = JUMP;
+
+        if (Input.GetAxis("Vertical") > 0f)
+        {
+            m_rb2D.MovePosition(m_rb2D.position + Time.fixedDeltaTime * m_speed * Vector2.up);
+
         }
+
 
 
 
