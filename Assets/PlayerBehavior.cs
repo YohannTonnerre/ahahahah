@@ -15,6 +15,8 @@ public class PlayerBehavior : MonoBehaviour
     public static int bonus_r = 0;
     public static bool bonus_cle = false;
 
+    public static int nb_r = 0;
+
     public GameObject m_ball;
 
     public static int Life = 3;
@@ -68,6 +70,7 @@ public class PlayerBehavior : MonoBehaviour
             ScoreScript.m_score += 500;
             bonus_r = bonus_r + 1;
             m_speed = m_speed + 100;
+            nb_r += 1;
         }
         if (collision.gameObject.tag == "clé")
         {
