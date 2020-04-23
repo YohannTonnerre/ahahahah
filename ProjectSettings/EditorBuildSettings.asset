@@ -12,6 +12,21 @@ EditorBuildSettings:
     path: Assets/Sprites/0_Menu.unity
     guid: 04bf9f902c7d59642af051cd88af7dbe
   - enabled: 1
+    path: Assets/Sprites/0_1_Cinematique.unity
+    guid: fdceac39faab0de459780b6dd9cf70da
+  - enabled: 1
+    path: Assets/Sprites/0_2_Cinematique.unity
+    guid: 679dce5143700c9468da5bec8b199f68
+  - enabled: 1
+    path: Assets/Sprites/0_3_Cinematique.unity
+    guid: 42c22ad4682914f4c9a68c6ab2a557ce
+  - enabled: 1
+    path: Assets/Sprites/0_4_Cinematique.unity
+    guid: eb9ab5b90cb80ba44aa85fb634e5335e
+  - enabled: 1
+    path: Assets/Sprites/0_5_Cinematique.unity
+    guid: e851cb27dd62b9f46b50491c17c234ba
+  - enabled: 1
     path: Assets/Sprites/1_PacMan.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
