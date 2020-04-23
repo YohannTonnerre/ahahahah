@@ -345,7 +345,7 @@ MonoBehaviour:
   accelerationTime: 2
   maxSpeed: 300
   BulletSpeed: 1000
-  Bullet: {fileID: 1303448020680473681, guid: c2839c81d4944e1479652b3e56105170, type: 3}
+  Bullet: {fileID: 2674444510581503153, guid: 906db16c6fe5777409c4aa4d96e317da, type: 3}
 --- !u!50 &267328229
 Rigidbody2D:
   serializedVersion: 4
