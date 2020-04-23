@@ -5384,6 +5384,7 @@ MonoBehaviour:
   m_rb2D: {fileID: 561099296}
   m_score: 0
   m_ball: {fileID: 1303448020680473693, guid: c2839c81d4944e1479652b3e56105170, type: 3}
+  bonus_vie: 0
 --- !u!212 &561099294
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5468,7 +5469,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
-  m_Constraints: 4
+  m_Constraints: 0
 --- !u!58 &561099297
 CircleCollider2D:
   m_ObjectHideFlags: 0
