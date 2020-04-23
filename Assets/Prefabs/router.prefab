@@ -96,7 +96,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69e029c4ac26bce4884fd988e3b8a320, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_speed: 1000
   m_rb2D: {fileID: -9084415190210047060}
   BulletDestroyTimer: 1
 --- !u!50 &-9084415190210047060

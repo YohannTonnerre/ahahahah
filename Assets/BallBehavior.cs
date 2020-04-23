@@ -30,9 +30,17 @@ public class BallBehavior : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
+
+
         if (collision.gameObject.tag == "Hacker")
         {
-            Destroy(gameObject);
+            HackerBehavior.hackerLife = HackerBehavior.hackerLife - 1;
+            Debug.Log(HackerBehavior.hackerLife); 
+        }
+
+        if (HackerBehavior.hackerLife == 0)
+        {
+            Destroy(collision.gameObject);
         }
         
     }

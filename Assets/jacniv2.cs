@@ -56,9 +56,7 @@ public class jacniv2 : MonoBehaviour
 
     void FixedUpdate(){
          Bullet.MovePosition(Bullet.position + Time.fixedDeltaTime * BulletSpeed * Vector2.up);
-         Debug.Log(Bullet.position);
-         Debug.Log(Time.fixedDeltaTime);
-         Debug.Log(Vector2.up);
+
         if (Input.GetAxis("Fire1") > 0f && Time.time > RouterFire) {
             this.gameObject.GetComponent<SpriteRenderer>().sprite = JUMP;
             RouterFire = Time.time + RouterRate;
