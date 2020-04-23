@@ -12,8 +12,12 @@ public class jacniv2 : MonoBehaviour
     public Sprite Grounded;
     public float BulletSpeed = 1000f;
     public Rigidbody2D Bullet; 
-    
-    // Start is called before the first frame update
+
+
+    private float RouterRate = 0.5f;
+
+    private float RouterFire;
+
     void Start()
     {
 
@@ -55,8 +59,9 @@ public class jacniv2 : MonoBehaviour
          Debug.Log(Bullet.position);
          Debug.Log(Time.fixedDeltaTime);
          Debug.Log(Vector2.up);
-        if (Input.GetAxis("Fire1") > 0f) {
-          Instantiate(Bullet, transform.localPosition, Quaternion.identity); 
+        if (Input.GetAxis("Fire1") > 0f && Time.time > RouterFire) {
+            RouterFire = Time.time + RouterRate;
+            Instantiate(Bullet, transform.localPosition, Quaternion.identity); 
         }
     }
 
