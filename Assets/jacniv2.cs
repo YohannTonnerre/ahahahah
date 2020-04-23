@@ -25,34 +25,7 @@ public class jacniv2 : MonoBehaviour
     }
 
      void CheckInput() {
-    	if (Input.GetAxis("Horizontal") < 0f)
-        {
-            m_rb2D.MovePosition(m_rb2D.position + Time.fixedDeltaTime * m_speed * Vector2.left);
-
-        }
-
-        if (Input.GetAxis("Horizontal") > 0f)
-        {
-            m_rb2D.MovePosition(m_rb2D.position + Time.fixedDeltaTime * m_speed * Vector2.right);
-        }
-
-        if (Input.GetAxis("Vertical") < 0f)
-        {
-            m_rb2D.MovePosition(m_rb2D.position + Time.fixedDeltaTime * m_speed * Vector2.down);
-
-        }
-
-        if (Input.GetAxis("Vertical") > 0f)
-        {
-            m_rb2D.MovePosition(m_rb2D.position + Time.fixedDeltaTime * m_speed * Vector2.up);
-
-        }
-
-
-
-
-
-        /*if (Input.GetKeyDown (GameManager.left)) {
+    	if (Input.GetKeyDown (GameManager.left)) {
             direction = Vector2.left;
         } else if (Input.GetKeyDown (GameManager.right)) {
             direction = Vector2.right;
@@ -64,7 +37,7 @@ public class jacniv2 : MonoBehaviour
         }
         else if (isGrounded == false){
             this.gameObject.GetComponent<SpriteRenderer>().sprite = JUMP;
-        }*/
+        }
     	
     }
 
