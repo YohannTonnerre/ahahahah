@@ -7,7 +7,7 @@ public class MainMenu : MonoBehaviour
 {
     public void PlayGame ()
     {
-        SceneManager.LoadScene("1_PacMan");
+        SceneManager.LoadScene("0_1_Cinematique");
     }
 
     public void QuitGame ()
