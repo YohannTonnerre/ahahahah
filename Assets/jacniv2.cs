@@ -60,8 +60,10 @@ public class jacniv2 : MonoBehaviour
          Debug.Log(Time.fixedDeltaTime);
          Debug.Log(Vector2.up);
         if (Input.GetAxis("Fire1") > 0f && Time.time > RouterFire) {
+            this.gameObject.GetComponent<SpriteRenderer>().sprite = JUMP;
             RouterFire = Time.time + RouterRate;
             Instantiate(Bullet, transform.localPosition, Quaternion.identity); 
+
         }
     }
 
