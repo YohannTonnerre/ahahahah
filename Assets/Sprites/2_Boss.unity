@@ -346,6 +346,9 @@ MonoBehaviour:
   maxSpeed: 300
   BulletSpeed: 1000
   Bullet: {fileID: 2674444510581503153, guid: 906db16c6fe5777409c4aa4d96e317da, type: 3}
+  HackerBADCorps: {fileID: 21300000, guid: fe4a245afcff14642a6c8ed6572f1d99, type: 3}
+  shooting: {fileID: 21300000, guid: 879d58c5b5e9db8428cb35db878b64bc, type: 3}
+  HackerGOODCorps: {fileID: 21300000, guid: e09f74af622998e4b847245fc5ed80d0, type: 3}
 --- !u!50 &267328229
 Rigidbody2D:
   serializedVersion: 4

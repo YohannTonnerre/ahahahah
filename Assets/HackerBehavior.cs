@@ -16,8 +16,16 @@ public class HackerBehavior : MonoBehaviour
     public float BulletSpeed = 1000f;
     public Rigidbody2D Bullet;
     private float RouterRate = 1f;
+    public Sprite HackerBADCorps;
+    public Sprite shooting;
+    public Sprite HackerGOODCorps;
 
     private float RouterFire;
+
+
+    void Start(){
+
+    }
     
     void Update()
     {
@@ -35,7 +43,18 @@ public class HackerBehavior : MonoBehaviour
       	 if (Time.time > RouterFire) {
             RouterFire = Time.time + RouterRate;
             Instantiate(Bullet, transform.localPosition, Quaternion.identity); 
+        	this.gameObject.GetComponent<SpriteRenderer>().sprite = shooting;
+        }
+        else if (hackerLife >= 5){
+        	this.gameObject.GetComponent<SpriteRenderer>().sprite = HackerGOODCorps; 
+        	}   
 
+        else if (hackerLife < 5){
+        	this.gameObject.GetComponent<SpriteRenderer>().sprite = HackerBADCorps; 
+        	}     	
+
+        else if(hackerLife < 5){
+        	this.gameObject.GetComponent<SpriteRenderer>().sprite = HackerBADCorps;
         }
     }
 }
