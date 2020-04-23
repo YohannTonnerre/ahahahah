@@ -14,7 +14,6 @@ public class PlayerBehavior : MonoBehaviour
     public int m_score = 0;
     public static int bonus_r = 0;
     public static bool bonus_cle = false;
-
     public static int nb_r = 0;
 
     public GameObject m_ball;

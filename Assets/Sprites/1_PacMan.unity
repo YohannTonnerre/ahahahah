@@ -1376,7 +1376,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 2
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -9180,7 +9180,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09e53f85f98c80342ac999dfeb07f266, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isPauseded: 0
+  isPauseded: 1
   PauseImg: {fileID: 21300000, guid: 3ced4b8469078194b986d97d8fb36d13, type: 3}
   PlayImg: {fileID: 21300000, guid: 31833f1090e52f4448dc957b8c11fd36, type: 3}
   buttonImageContinuer: {fileID: 2800000, guid: 2c3d2accf6ef6244089c4bc1bf7205ae,

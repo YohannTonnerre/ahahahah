@@ -34,7 +34,6 @@ public class buttonretour : MonoBehaviour
         PlayerBehavior.bonus_r = 0;
         PlayerBehavior.bonus_cle = false;
         PlayerBehavior.nb_r = 0;
-        
     }
 
      public void ButtonLevelup ()
