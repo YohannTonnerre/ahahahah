@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class jacniv2 : MonoBehaviour
 {
@@ -12,6 +13,11 @@ public class jacniv2 : MonoBehaviour
     public Sprite Grounded;
     public float BulletSpeed = 1000f;
     public Rigidbody2D Bullet; 
+    public int BulletAmmo;
+    public Rigidbody2D Bullet1;
+    public int BulletAmmo1;
+    public Rigidbody2D Bullet2;
+    public int BulletAmmo2;
 
     public static  int JacLife = 10;
 
@@ -60,11 +66,45 @@ public class jacniv2 : MonoBehaviour
          Bullet.MovePosition(Bullet.position + Time.fixedDeltaTime * BulletSpeed * Vector2.up);
 
         if (Input.GetAxis("Fire1") > 0f && Time.time > RouterFire) {
-            this.gameObject.GetComponent<SpriteRenderer>().sprite = JUMP;
-            RouterFire = Time.time + RouterRate;
-            Instantiate(Bullet, transform.localPosition, Quaternion.identity); 
+
+
+            if (BulletAmmo == 1){
+                RouterFire = Time.time + RouterRate;
+                Instantiate(Bullet, transform.localPosition, Quaternion.identity);
+                this.gameObject.GetComponent<SpriteRenderer>().sprite = JUMP; 
+                BulletAmmo -= 1;
+            }
+        }
+
+
+        if (Input.GetAxis("Fire1") > 0f && Time.time > RouterFire) {
+            if (BulletAmmo == 0 && BulletAmmo1 > 0){
+                BulletAmmo1 -= 1;
+                 RouterFire = Time.time + RouterRate;
+                 Instantiate(Bullet1, transform.localPosition, Quaternion.identity);
+                this.gameObject.GetComponent<SpriteRenderer>().sprite = JUMP; 
+            }
+        }
+
+        if (Input.GetAxis("Fire1") > 0f && Time.time > RouterFire) {
+            if (BulletAmmo1 == 0 && BulletAmmo2 > 0){
+                BulletAmmo2 -= 1;
+                 RouterFire = Time.time + RouterRate;
+                 Instantiate(Bullet2, transform.localPosition, Quaternion.identity);
+                this.gameObject.GetComponent<SpriteRenderer>().sprite = JUMP; 
+            }
+
+
+            
+
+
+             
 
         }
+
+        if (HackerBehavior.hackerLife <= 0){
+            SceneManager.LoadScene("3_PageWin");   
+        } 
     }
 
 }
