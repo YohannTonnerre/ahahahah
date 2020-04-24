@@ -16,7 +16,7 @@ public class HackerBehavior : MonoBehaviour
     private float m_speed = 500f;
     public float BulletSpeed = 1000f;
     public Rigidbody2D Bullet;
-    private float RouterRate = 1f;
+    private float RouterRate = 2f;
     public Sprite HackerBADCorps;
     public Sprite shooting;
     public Sprite HackerGOODCorps;

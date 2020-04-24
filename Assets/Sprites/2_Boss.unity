@@ -349,7 +349,6 @@ MonoBehaviour:
   HackerBADCorps: {fileID: 21300000, guid: fe4a245afcff14642a6c8ed6572f1d99, type: 3}
   shooting: {fileID: 21300000, guid: 879d58c5b5e9db8428cb35db878b64bc, type: 3}
   HackerGOODCorps: {fileID: 21300000, guid: e09f74af622998e4b847245fc5ed80d0, type: 3}
-  num: 9
 --- !u!50 &267328229
 Rigidbody2D:
   serializedVersion: 4
@@ -729,7 +728,14 @@ MonoBehaviour:
   JUMP: {fileID: 21300000, guid: db7f7b1c7b6a617479798c91ae992ffe, type: 3}
   Grounded: {fileID: 21300000, guid: 2e2b7ff930795da40908a3152468e915, type: 3}
   BulletSpeed: 100
-  Bullet: {fileID: -9084415190210047060, guid: 9365103bb95672a4f9bec4dcb36672e5, type: 3}
+  Bullet: {fileID: -4439510541212814563, guid: c9670e3adacec6448aa252fb817cac4c, type: 3}
+  BulletAmmo: 1
+  Bullet1: {fileID: -9084415190210047060, guid: 9365103bb95672a4f9bec4dcb36672e5,
+    type: 3}
+  BulletAmmo1: 4
+  Bullet2: {fileID: -1204171603375301241, guid: c5726b2e803804843a5723bb0fa9d410,
+    type: 3}
+  BulletAmmo2: 50
 --- !u!1 &687223719
 GameObject:
   m_ObjectHideFlags: 0
