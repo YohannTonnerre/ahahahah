@@ -26,7 +26,7 @@ public class HackerBehavior : MonoBehaviour
 
 
     void Start(){
-
+        hackerLife = 10;
     }
     
     void Update()
