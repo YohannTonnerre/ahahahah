@@ -1154,7 +1154,6 @@ GameObject:
   - component: {fileID: 116956149}
   - component: {fileID: 116956148}
   - component: {fileID: 116956150}
-  - component: {fileID: 116956147}
   m_Layer: 0
   m_Name: Cle_icon
   m_TagString: "cl\xE9"
@@ -1162,37 +1161,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!60 &116956147
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 116956146}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 60, y: 60}
-    newSize: {x: 3.28, y: 2.95}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -30, y: 10}
-      - {x: -30, y: -3}
-      - {x: -29, y: -5}
-      - {x: 30, y: -5}
-      - {x: 30, y: 8}
-      - {x: 27, y: 10}
 --- !u!212 &116956148
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1401,7 +1369,6 @@ GameObject:
   m_Component:
   - component: {fileID: 126546753}
   - component: {fileID: 126546752}
-  - component: {fileID: 126546751}
   - component: {fileID: 126546754}
   m_Layer: 0
   m_Name: Router_icon2
@@ -1410,32 +1377,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &126546751
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 126546750}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 60, y: 60}
-    newSize: {x: 348, y: 348}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 60, y: 36.8}
-  m_EdgeRadius: 0
 --- !u!212 &126546752
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2509,7 +2450,6 @@ GameObject:
   m_Component:
   - component: {fileID: 272933989}
   - component: {fileID: 272933988}
-  - component: {fileID: 272933987}
   - component: {fileID: 272933990}
   m_Layer: 0
   m_Name: Router_icon3
@@ -2518,32 +2458,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &272933987
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 272933986}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 60, y: 60}
-    newSize: {x: 348, y: 348}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 60, y: 36.8}
-  m_EdgeRadius: 0
 --- !u!212 &272933988
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3468,7 +3382,6 @@ GameObject:
   m_Component:
   - component: {fileID: 362480067}
   - component: {fileID: 362480066}
-  - component: {fileID: 362480065}
   - component: {fileID: 362480068}
   m_Layer: 0
   m_Name: Router_icon4
@@ -3477,32 +3390,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &362480065
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 362480064}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 60, y: 60}
-    newSize: {x: 348, y: 348}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 60, y: 36.8}
-  m_EdgeRadius: 0
 --- !u!212 &362480066
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15744,7 +15631,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1823565443}
   - component: {fileID: 1823565442}
-  - component: {fileID: 1823565441}
   - component: {fileID: 1823565444}
   m_Layer: 0
   m_Name: Router_icon1
@@ -15753,32 +15639,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &1823565441
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1823565440}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 60, y: 60}
-    newSize: {x: 348, y: 348}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 60, y: 36.8}
-  m_EdgeRadius: 0
 --- !u!212 &1823565442
 SpriteRenderer:
   m_ObjectHideFlags: 0
