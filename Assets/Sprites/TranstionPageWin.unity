@@ -1049,8 +1049,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1139937260}
-        m_MethodName: NextLevel
+      - m_Target: {fileID: 1139937261}
+        m_MethodName: ButtonLevelup
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
