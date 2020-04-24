@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class HackerBehavior : MonoBehaviour
 {
@@ -53,8 +54,8 @@ public class HackerBehavior : MonoBehaviour
         	this.gameObject.GetComponent<SpriteRenderer>().sprite = HackerBADCorps; 
         	}     	
 
-        else if(hackerLife < 5){
-        	this.gameObject.GetComponent<SpriteRenderer>().sprite = HackerBADCorps;
+        else if(hackerLife <= 0){
+        	SceneManager.LoadScene("3_PageWin");
         }
     }
 }

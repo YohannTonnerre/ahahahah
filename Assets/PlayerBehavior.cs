@@ -89,7 +89,7 @@ public class PlayerBehavior : MonoBehaviour
     	}
 
         if (ScoreScript.m_score == 5100){
-            SceneManager.LoadScene("3_PageWin");
+            SceneManager.LoadScene("TranstionPageWin");
         }
 
     }
