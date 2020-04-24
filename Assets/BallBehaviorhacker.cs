@@ -32,7 +32,16 @@ public class BallBehaviorhacker : MonoBehaviour
     {
 
 
+        if (collision.gameObject.tag == "jacniv2")
+        {
+            jacniv2.JacLife = jacniv2.JacLife - 1;
+            Debug.Log(jacniv2.JacLife); 
+        }
 
+        if (jacniv2.JacLife == 0)
+        {
+            Destroy(collision.gameObject);
+        }
         
     }
 
