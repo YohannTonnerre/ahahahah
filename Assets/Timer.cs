@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
  
-public class CountDown : MonoBehaviour
+public class Timer : MonoBehaviour
 {
     public float start = 10;
  
@@ -20,11 +20,11 @@ public class CountDown : MonoBehaviour
     {
         start = Mathf.Max(0, start - Time.deltaTime);
         TimeSpan timeSpan = TimeSpan.FromSeconds(start);
-        time.text = timeSpan.Minutes.ToString("00") + ":" + timeSpan.Seconds.ToString("00");
+        time.text = timeSpan.Minutes.ToString("00") + ":" + timeSpan.Seconds.ToString("00") + "	";
 
         if (start <= 1)
         {
-            SceneManager.LoadScene("TranstionPageWin");
+            SceneManager.LoadScene("3_PageWin");
         }
     }
 }

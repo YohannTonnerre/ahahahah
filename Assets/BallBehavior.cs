@@ -42,6 +42,8 @@ public class BallBehavior : MonoBehaviour
         {
             Destroy(collision.gameObject);
         }
+
+        
         
     }
 
