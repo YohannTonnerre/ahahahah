@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class jacniv2 : MonoBehaviour
 {
@@ -63,6 +64,10 @@ public class jacniv2 : MonoBehaviour
             Instantiate(Bullet, transform.localPosition, Quaternion.identity); 
 
         }
+
+        if (HackerBehavior.hackerLife <= 0){
+            SceneManager.LoadScene("3_PageWin");   
+        } 
     }
 
 }

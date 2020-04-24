@@ -20,7 +20,6 @@ public class HackerBehavior : MonoBehaviour
     public Sprite HackerBADCorps;
     public Sprite shooting;
     public Sprite HackerGOODCorps;
-
     private float RouterFire;
 
 
@@ -46,16 +45,19 @@ public class HackerBehavior : MonoBehaviour
             Instantiate(Bullet, transform.localPosition, Quaternion.identity); 
         	this.gameObject.GetComponent<SpriteRenderer>().sprite = shooting;
         }
-        else if (hackerLife >= 5){
+
+        
+
+        else if (hackerLife > 5){
         	this.gameObject.GetComponent<SpriteRenderer>().sprite = HackerGOODCorps; 
         	}   
 
-        else if (hackerLife < 5){
+        else if (hackerLife <= 5){
         	this.gameObject.GetComponent<SpriteRenderer>().sprite = HackerBADCorps; 
-        	}     	
+        	}  
 
-        else if(hackerLife <= 0){
-        	SceneManager.LoadScene("3_PageWin");
-        }
+          	
+
+        
     }
 }
