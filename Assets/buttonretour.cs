@@ -24,6 +24,7 @@ public class buttonretour : MonoBehaviour
         ScoreScript.m_score = 0;
         PlayerBehavior.bonus_r = 0;
         PlayerBehavior.bonus_cle = false;
+        HackerBehavior.hackerLife = 10;
     }
 
      public void ButtonReco ()
