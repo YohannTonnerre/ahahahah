@@ -56,14 +56,8 @@ public class HackerBehavior : MonoBehaviour
         	this.gameObject.GetComponent<SpriteRenderer>().sprite = HackerBADCorps; 
         	}  
 
-<<<<<<< HEAD
         else if(hackerLife <= 1){
         	SceneManager.LoadScene("3_PageWin");
         }
-=======
-          	
-
-        
->>>>>>> cb213f4dde3bd796e6a85fea74fed3b1326af7d6
     }
 }
