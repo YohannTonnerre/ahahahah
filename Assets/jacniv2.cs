@@ -13,6 +13,8 @@ public class jacniv2 : MonoBehaviour
     public float BulletSpeed = 1000f;
     public Rigidbody2D Bullet; 
 
+    public static  int JacLife = 10;
+
 
     private float RouterRate = 0.5f;
 
@@ -24,20 +26,20 @@ public class jacniv2 : MonoBehaviour
        
     }
 
-     void CheckInput() {
-    	if (Input.GetKeyDown (GameManager.left)) {
-            direction = Vector2.left;
-        } else if (Input.GetKeyDown (GameManager.right)) {
-            direction = Vector2.right;
-        } else if (Input.GetKeyDown (GameManager.forward) && isGrounded == true){
-            gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, 120f), ForceMode2D.Impulse);
-        }   
-        else if (isGrounded == true){
-            this.gameObject.GetComponent<SpriteRenderer>().sprite = Grounded;
-        }
-        else if (isGrounded == false){
-            this.gameObject.GetComponent<SpriteRenderer>().sprite = JUMP;
-        }
+    void CheckInput() {
+    if (Input.GetKeyDown (GameManager.left)) {
+        direction = Vector2.left;
+    } else if (Input.GetKeyDown (GameManager.right)) {
+        direction = Vector2.right;
+    } else if (Input.GetKeyDown (GameManager.forward) && isGrounded == true){
+        gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, 120f), ForceMode2D.Impulse);
+    }   
+    else if (isGrounded == true){
+        this.gameObject.GetComponent<SpriteRenderer>().sprite = Grounded;
+    }
+    else if (isGrounded == false){
+        this.gameObject.GetComponent<SpriteRenderer>().sprite = JUMP;
+    }
     	
     }
 

@@ -12,6 +12,7 @@ TagManager:
   - Teleporter1
   - Hacker
   - RouterJacques
+  - jacniv2
   layers:
   - Default
   - TransparentFX
