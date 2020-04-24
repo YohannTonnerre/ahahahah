@@ -18,7 +18,7 @@ public class Isposed : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+       isPauseded = false;
     }
 
     // Update is called once per frame
